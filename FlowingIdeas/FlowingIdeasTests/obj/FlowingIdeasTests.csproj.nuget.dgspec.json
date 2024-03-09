@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeas\\FlowingIdeas.csproj": {}
+    "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeasTests\\FlowingIdeasTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeas\\FlowingIdeas.csproj": {
+    "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeasTests\\FlowingIdeasTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeas\\FlowingIdeas.csproj",
-        "projectName": "FlowingIdeas",
-        "projectPath": "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeas\\FlowingIdeas.csproj",
+        "projectUniqueName": "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeasTests\\FlowingIdeasTests.csproj",
+        "projectName": "FlowingIdeasTests",
+        "projectPath": "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeasTests\\FlowingIdeasTests.csproj",
         "packagesPath": "C:\\Users\\katik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeas\\obj\\",
+        "outputPath": "C:\\Users\\katik\\OneDrive\\Работен плот\\Project Git\\GroupProject\\FlowingIdeas\\FlowingIdeasTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\katik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -42,16 +42,28 @@
         }
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Data.SqlClient": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[5.2.0, )"
+              "version": "[17.8.0, )"
             },
-            "Microsoft.EntityFrameworkCore": {
+            "NUnit": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -68,9 +80,6 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"

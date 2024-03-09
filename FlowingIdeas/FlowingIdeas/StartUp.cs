@@ -1,6 +1,6 @@
 namespace FlowingIdeas
 {
-    internal static class StartUp
+    public static class StartUp
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -15,3 +15,4 @@ namespace FlowingIdeas
         }
     }
 }
+// was I added successfully?
